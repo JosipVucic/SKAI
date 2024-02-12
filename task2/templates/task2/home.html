@@ -1,0 +1,22 @@
+<!-- templates/home.html -->
+{% extends "base.html" %}
+
+{% block title %}Task 2{% endblock %}
+{% block app_title %}Task 2{% endblock %}
+
+{% block content %}
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="bg-body-tertiary p-4 rounded">
+                    <h2>Sales API</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-6 offset-md-3">
+                <div class="bg-body-tertiary p-4 rounded">
+                    <p>The API endpoint is <a href="{% url 'task2:api' %}">/task2/api</a> you can visit it for the default API testing interface.</p>
+                </div>
+            </div>
+        </div>
+{% endblock %}

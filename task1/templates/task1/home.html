@@ -1,0 +1,18 @@
+<!-- templates/home.html -->
+{% extends "base.html" %}
+
+{% block title %}Task 1{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+<script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
+{% endblock %}
+
+{% block app_title %}Task 1{% endblock %}
+
+{% block content %}
+<div id="map"></div>
+
+{% load static %}
+<script src="{% static 'task1/js/map.js' %}"></script>
+{% endblock %}

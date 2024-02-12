@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Montserrat, Consolas, Arial, Helvetica, sans-serif;
+}
+
+.navbar-center {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: -1; /* Ensure it appears above other elements */
+}
+
+.nav-padding {
+    padding-top: 5rem;
+}
+
+.hero {
+    height: 100vh;
+}
+
+#projects {
+    height: 100vh;
+}
+
+pre.output {
+    white-space: pre-wrap;  /* This CSS property makes the text wrap */
+    overflow: auto;  /* Optional: Use 'auto' to enable scrolling if needed */
+}
+
+.asteriskField {
+    display: none;
+}
+
